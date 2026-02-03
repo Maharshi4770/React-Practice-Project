@@ -1,0 +1,74 @@
+.add-task-container {
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px 24px;
+  background: linear-gradient(180deg, #0f172a, #020617);
+  border-radius: 14px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45);
+  color: #e5e7eb;
+}
+
+.add-task-title {
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+
+.add-task-form {
+  display: flex;
+  align-items: flex-end;
+  gap: 14px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.field label {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.field input,
+.field select {
+  height: 42px;
+  padding: 0 12px;
+  border-radius: 10px;
+  background-color: #1f2937;
+  border: 1px solid #374151;
+  color: #e5e7eb;
+  font-size: 14px;
+}
+
+.field input::placeholder {
+  color: #6b7280;
+}
+
+.field input:focus,
+.field select:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
+
+/* ADD BUTTON */
+.add-btn {
+  height: 42px;
+  padding: 0 18px;
+  border-radius: 10px;
+  background-color: #3b82f6;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.add-btn:hover {
+  background-color: #2563eb;
+}
