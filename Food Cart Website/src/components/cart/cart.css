@@ -1,0 +1,84 @@
+/* ================= BACKDROP ================= */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+}
+
+/* ================= MODAL ================= */
+
+.cart {
+  position: fixed;
+  top: 15vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  max-width: 45rem;
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: 25px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+  z-index: 1100;
+}
+
+/* ================= ITEMS ================= */
+
+.cart-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 22rem;
+  overflow-y: auto;
+  overflow: scroll;
+}
+
+/* ================= TOTAL ================= */
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 3rem 0 2rem 0;
+}
+
+/* ================= FOOTER BUTTONS ================= */
+
+.button-alt {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.9rem 2.8rem;
+  border-radius: 50px;
+  border: 2px solid #8a2b06;
+  background: transparent;
+  color: #8a2b06;
+  font-size: 1.3rem;
+  transition: all 0.2s ease;
+}
+
+.button-alt:hover {
+  background: #8a2b06;
+  color: white;
+}
+
+.button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.9rem 3.2rem;
+  border-radius: 50px;
+  border: none;
+  background: #8a2b06;
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background: #641e03;
+}
